@@ -12,7 +12,7 @@ Junrui Zhang, Chenjie Wang, Jie Peng, Haoyu Li, Jianmin Ji, Yu Zhang, Yanyong Zh
 
 ## Setup Environment & Dataset Preparation
 
-Setup the nuPlan dataset and conda environment following the https://github.com/jchengai/pluto.
+Setup the nuPlan dataset and conda environment following the [PLUTO](https://github.com/jchengai/pluto).
 All methods are trained on a randomly selected 100k-split dataset, the corresponding scenario tokens are saved in the [token_list.txt file](https://github.com/AlniyatRui/CAFE-AD/blob/master/token_list.txt).
 
 ## Training
