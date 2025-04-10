@@ -19,8 +19,7 @@ All methods are trained on a randomly selected 100k-split dataset, the correspon
 
 Our method is implemented based on [PLUTO](https://github.com/jchengai/pluto).
 
-Change the `nuplan` configuration in the [train.sh](https://github.com/AlniyatRui/CAFE-AD/blob/master/train.sh) and then execute the following command:
-    
+Change the `nuplan` configuration in the [train.sh](https://github.com/AlniyatRui/CAFE-AD/blob/master/train.sh) and then execute the following command: 
    ```
    sh train.sh
    ```
@@ -33,13 +32,12 @@ Our method requires multiple forward passes during processing, which increases t
 
 2. **Run the Simulation for `test14-hard` Benchmark**  
    Once the configuration is updated, execute the simulation for the `test14-hard` benchmark using the following command:
-    
    ```
    sh simulation.sh
    ```
    
 3. **Notes**
-4. 
+   
     This repo also includes simple implenmentation for running log replay and testing the IDM model.
     In the original PLUTO code, the rule-based post-processing would throw an error when no reference line was available. These errors were due to failures in the post-processing in some frames, so we used pure learning results to prevent these errors in those frames.
 
