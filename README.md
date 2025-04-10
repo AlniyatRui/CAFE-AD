@@ -19,7 +19,7 @@ All methods are trained on a randomly selected 100k-split dataset, the correspon
 
 Our method is implemented based on [PLUTO](https://github.com/jchengai/pluto).
 
-Change the `nuplan` configuration in the [script/run_pluto_planner](https://github.com/AlniyatRui/CAFE-AD/blob/master/train.sh) and then execute the following command:
+Change the `nuplan` configuration in the [train.sh](https://github.com/AlniyatRui/CAFE-AD/blob/master/train.sh) and then execute the following command:
     
    ```
    sh train.sh
