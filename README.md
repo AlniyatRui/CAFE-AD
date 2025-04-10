@@ -17,7 +17,7 @@ Setup the nuPlan dataset and conda environment following the https://github.com/
 ## Inference
 
 1. **Update the Configuration**  
-   Change the `nuplan` configuration in the [script/run_pluto_planner](script/run_pluto_planner) file.
+   Change the `nuplan` configuration in the [script/run_pluto_planner](https://github.com/AlniyatRui/CAFE-AD/blob/master/script/run_pluto_planner.sh) file.
 
 2. **Run the Simulation for `test14-hard` Benchmark**  
    Once the configuration is updated, execute the simulation for the `test14-hard` benchmark using the following command:
