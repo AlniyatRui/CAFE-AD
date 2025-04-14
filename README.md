@@ -12,9 +12,13 @@ Junrui Zhang, Chenjie Wang, Jie Peng, Haoyu Li, Jianmin Ji, Yu Zhang and Yanyong
 
 ## Setup Environment & Dataset Preparation
 
-Setup the nuPlan dataset and conda environment following the [PLUTO](https://github.com/jchengai/pluto).
-All methods are trained on a randomly selected 100k-split dataset, the corresponding scenario tokens are saved in the [token_list.txt file](https://github.com/AlniyatRui/CAFE-AD/blob/master/token_list.txt).
+1. Setup the nuPlan dataset and conda environment following the [PLUTO](https://github.com/jchengai/pluto).
+All methods are trained on a randomly selected 100k-split dataset, the corresponding scenario tokens are saved in the [token_list.txt](https://github.com/AlniyatRui/CAFE-AD/blob/master/token_list.txt).
 
+2. Set the dataset path in the [preprocess/preprocess.py](https://github.com/AlniyatRui/CAFE-AD/blob/master/preprocess/preprocess.py), and then generate the scenario distribution using the following command:
+    ```
+    python preprocess/preprocess.py
+    ```
 ## Training
 (The training part it not fully tested)
 
@@ -29,7 +33,7 @@ Our method requires multiple forward passes during training, which increases the
 ## Inference
 
 1. **Update the Configuration**  
-   Change the `nuplan` configuration in the [script/run_pluto_planner](https://github.com/AlniyatRui/CAFE-AD/blob/master/script/run_pluto_planner.sh) file.
+   Change the `nuplan` configuration in the [script/run_pluto_planner.sh](https://github.com/AlniyatRui/CAFE-AD/blob/master/script/run_pluto_planner.sh) file.
 
 2. **Run the Simulation for `test14-hard` Benchmark**  
    Once the configuration is updated, execute the simulation for the `test14-hard` benchmark using the following command:
