@@ -19,6 +19,9 @@ All methods are trained on a randomly selected 100k-split dataset, the correspon
     ```
     python preprocess/preprocess.py
     ```
+    
+3. Our 100K-Split Scenarios Dataset is now available on [Hugging Face](https://huggingface.co/datasets/AlniyatRui/CAFE-AD-100K-Split/tree/main)
+   
 ## Training
 (The training part it not fully tested)
 
