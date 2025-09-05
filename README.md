@@ -57,10 +57,14 @@ We thank the developers of [PLUTO](https://github.com/jchengai/pluto), [planTF](
 If you find this repo useful, please consider giving us a star 🌟 and citing our related paper.
 
 ```bibtex
-@article{zhang2025cafe,
-  title={CAFE-AD: Cross-Scenario Adaptive Feature Enhancement for Trajectory Planning in Autonomous Driving},
+@INPROCEEDINGS{11127589,
   author={Zhang, Junrui and Wang, Chenjie and Peng, Jie and Li, Haoyu and Ji, Jianmin and Zhang, Yu and Zhang, Yanyong},
-  journal={arXiv preprint arXiv:2504.06584},
-  year={2025}
-}
+  booktitle={2025 IEEE International Conference on Robotics and Automation (ICRA)}, 
+  title={CAFE-AD: Cross-Scenario Adaptive Feature Enhancement for Trajectory Planning in Autonomous Driving}, 
+  year={2025},
+  volume={},
+  number={},
+  pages={1300-1307},
+  keywords={Training;Adaptation models;Interpolation;Heavily-tailed distribution;Trajectory planning;Imitation learning;Benchmark testing;Transformers;Robotics and automation;Autonomous vehicles},
+  doi={10.1109/ICRA55743.2025.11127589}}
 ```
