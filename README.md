@@ -62,9 +62,7 @@ If you find this repo useful, please consider giving us a star 🌟 and citing o
   booktitle={2025 IEEE International Conference on Robotics and Automation (ICRA)}, 
   title={CAFE-AD: Cross-Scenario Adaptive Feature Enhancement for Trajectory Planning in Autonomous Driving}, 
   year={2025},
-  volume={},
-  number={},
   pages={1300-1307},
-  keywords={Training;Adaptation models;Interpolation;Heavily-tailed distribution;Trajectory planning;Imitation learning;Benchmark testing;Transformers;Robotics and automation;Autonomous vehicles},
-  doi={10.1109/ICRA55743.2025.11127589}}
+  doi={10.1109/ICRA55743.2025.11127589}
+}
 ```
